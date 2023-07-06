@@ -1,0 +1,51 @@
+.btn-rectangle {
+    background-color: #f8f9fa;
+    height: 6rem;
+    border-radius: 10px;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-height: 485px) {
+    .btn-rectangle {
+        font-size: 2vw;
+        height: 4rem;
+    }
+}
+
+@media (max-width: 485px) {
+    .btn-rectangle {
+        width: 20rem;
+    }
+}
+
+@media (max-height: 326px) {
+    .btn-rectangle {
+        font-size: 1vw;
+        height: 3rem;
+    }
+}
+
+
+@media (max-height: 485px) {
+    .d-flex {
+        height: 10vh;
+    }
+}
+
+@media (max-width: 485px) {
+    .d-flex {
+        width: 20rem
+    }
+}
+
+@media (max-height: 326px) {
+    button {
+        font-size: 0.5vw;
+        height: 1.5rem;
+    }
+}
+
